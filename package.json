@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "postinstall": "next build",
     "compile:css": "npx tailwindcss build styles.css -o output.css",
     "test": "jest",
     "test:watch": "jest --watchAll",
