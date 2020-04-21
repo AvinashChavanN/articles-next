@@ -1,0 +1,21 @@
+@tailwind base;
+
+.h-banner {
+    height: 30rem;
+}
+.btn-primary {
+    @apply text-sm font-medium absolute right-0 bottom-0 p-4 m-1 rounded
+}
+.btn-primary:hover {
+    @apply underline bg-teal-500 text-white
+}
+
+.btn-primary:active {
+    @apply underline bg-teal-500 text-white
+}
+.btn-primary:focus {
+    @apply outline-none shadow-outline
+}
+@tailwind components;
+
+@tailwind utilities;
