@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "node server.js",
     "postinstall": "next build",
     "compile:css": "npx tailwindcss build styles.css -o output.css",
     "test": "jest",
